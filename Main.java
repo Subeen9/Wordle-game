@@ -8,7 +8,7 @@ public class Main {
         WordleGame game = new WordleGame("HARRY",6);
 
         try{
-            File f = new File("C:\\Users\\neera\\IdeaProjects\\cmps-280---06---harry-potter-wordle-niraj0010\\src\\database.txt");
+            File f = new File("C:\\Users\\dell\\IdeaProjects\\cmps-280---06---harry-potter-wordle-subin\\src\\database.txt");
             Scanner in = new Scanner(f);
             while(in.hasNext()){
                 String st = in.nextLine();
